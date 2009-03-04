@@ -1,0 +1,29 @@
+<MWElements>
+  <MWElement name="Bubbles Mask Stimulus">
+    <!-- XPath 2.0 expression defining nodes of this type -->
+    <match_signature>stimulus[@type="bubbles_mask"]</match_signature>
+    
+    <isa>Stimulus</isa>
+    
+    <description>
+      A "bubbles" style mask stimulus
+    </description>
+    
+    <!-- Payload -->
+    <code>
+      <stimulus type="bubbles_mask" tag="Bubbles Mask"
+        path="gaussian400x400.png"
+        color="1,1,1"
+		x_size="10.0"
+		y_size="10.0"
+		x_position="0.0"
+		y_position="0.0"
+		rotation="0.0"
+        mask_x_position="2.0"
+        mask_y_position="2.0"
+        mask_x_size="3.0"
+        mask_y_size="3.0"
+		alpha_multiplier="1.0"/>
+    </code>
+  </MWElement>
+</MWElements>
